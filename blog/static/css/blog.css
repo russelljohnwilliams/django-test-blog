@@ -2,19 +2,23 @@ body {
     padding-left: 15px;
 }
 
-h1 a {
-    color: #FCA205;
+h4 a {
+    color: white;
     font-weight:normal;
-    font-family: 'Corben';
+    font-family: 'Special Elite';
+}
+
+a:link{
+    color: white;
 }
 
 .page-header {
-    text-align: center;
+    text-align: left;
     margin-left: -15px;
-    height: 100px;
+    height: 60px;
     background-color: grey;
     margin-top: 0;
-    padding: 10px 0 0 0;
+    padding: 15px 10px 0 40px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -25,11 +29,11 @@ h1 a {
 }
 
 .content {
-    margin-left: 80px;
+    /*margin-left: 80px;*/
 }
 
 h1, h2, h4 {
-    font-family: 'Corben', cursive;
+    font-family: 'Special Elite', cursive;
     font-weight:normal;
 
 }
@@ -59,17 +63,27 @@ h1, h2, h4 {
     vertical-align:top;
     overflow:hidden;
     margin: 10px;
-    width: 300px;
-    height: 300px;
+    width:250px;
+    height: 250px;
     border: 5px solid white;
     box-shadow: 0px 0px 0px 1px rgba(0,0,0,1);
     position: relative;
 
 }
 
+.row{
+    width: 1100px;
+    position: relative;
+    text-align: center;
+    margin: 0;
+}
+
 .col-md-8{
-    width: 1000px;
-    margin: auto;
+    width: 850px;
+    margin: auto;    
+    position: relative;
+    text-align: left;
+    float: none;
 }
 
 .title{
