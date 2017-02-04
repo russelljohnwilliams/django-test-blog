@@ -2,21 +2,23 @@ body {
     padding-left: 15px;
 }
 
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 h4 a {
     color: white;
     font-weight:normal;
     font-family: 'Special Elite';
 }
 
-a:link{
-    color: white;
-}
 
 .page-header {
     text-align: left;
     margin-left: -15px;
     height: 60px;
-    background-color: grey;
+    background-color: #60c5ba;
     margin-top: 0;
     padding: 15px 10px 0 40px;
 }
@@ -28,14 +30,9 @@ a:link{
     font-weight:normal;
 }
 
-.content {
-    /*margin-left: 80px;*/
-}
-
 h1, h2, h4 {
     font-family: 'Special Elite', cursive;
     font-weight:normal;
-
 }
 
 .date {
@@ -66,9 +63,8 @@ h1, h2, h4 {
     width:250px;
     height: 250px;
     border: 5px solid white;
-    box-shadow: 0px 0px 0px 1px rgba(0,0,0,1);
+    box-shadow: 0px 0px 0px 1px rgba(239,82,133,1);
     position: relative;
-
 }
 
 .row{
@@ -89,33 +85,38 @@ h1, h2, h4 {
 .title{
     font-weight:normal;
 }
-.post-title{
-    position: absolute;
-}
 
 .text-block{
     position: absolute;
     margin-top: 100px;
     color: rgba(0, 0, 0, 0.0);
+    line-height: 1.7;
+    transition: all .4s;
 }
 
 .text-block:hover{
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: #feee7d;
     color: black;
-    line-height: 1.8;
+    transition: all .4s;
+}
+
+.post-title{
+    position: absolute;
 }
 
 .a-title {
     color:white;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: #ef5285;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     line-height: 1.8;
+    transition: all .4s;
 }
 
 .a-title:hover{
     color: black;
     background-color: white;
+    transition: all .4s;
 }
 
 .detail-title{
