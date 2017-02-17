@@ -3,12 +3,12 @@ body {
 }
 
 a:hover {
-  color: white;
+  color: gray;
   text-decoration: none;
 }
 
 h4 a {
-    color: white;
+    color: black;
     font-weight:normal;
     font-family: 'Special Elite';
 }
@@ -18,13 +18,14 @@ h4 a {
     text-align: left;
     margin-left: -15px;
     height: 60px;
-    background-color: #60c5ba;
+    background-color: white;
+    border-bottom: 1px solid black;
     margin-top: 0;
     padding: 15px 10px 0 40px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
+    color: #000;
     font-size: 36pt;
     text-decoration: none;
     font-weight:normal;
@@ -35,10 +36,10 @@ h1, h2, h4 {
     font-weight:normal;
 }
 
-.date {
+/*.date {
     color: #828282;
     font-size: 10 px;
-}
+}*/
 
 .save {
     float: right;
@@ -63,7 +64,8 @@ h1, h2, h4 {
     width:250px;
     height: 250px;
     border: 5px solid white;
-    box-shadow: 0px 0px 0px 1px rgba(239,82,133,1);
+    /*box-shadow: 0px 0px 0px 1px rgba(239,82,133,1);*/
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,1);
     position: relative;
 }
 
@@ -95,7 +97,7 @@ h1, h2, h4 {
 }
 
 .text-block:hover{
-    background-color: #feee7d;
+    background-color: whitesmoke;
     color: black;
     transition: all .4s;
 }
@@ -106,7 +108,7 @@ h1, h2, h4 {
 
 .a-title {
     color:white;
-    background-color: #ef5285;
+    background-color: black;
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     line-height: 1.8;
@@ -126,19 +128,20 @@ h1, h2, h4 {
 
 .glyphicon, .glyphicon-plus{
     font-size: 20px;
+    color: black
 }
 
-.image{
-    /*width: 100%;*/
+.glyphicon:hover, .glyphicon-plus:hover{
+    font-size: 20px;
+    color: grey
+}
+
+
+.image {
     height: 100%;
+    display: block;
+    margin: auto;
 }
-
-
-
-
-
-
-
 
 
 
